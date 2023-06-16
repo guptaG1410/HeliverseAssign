@@ -1,0 +1,20 @@
+{
+  "name": "heliversenodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Govind Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.2.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "moment": "^2.29.4",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.0",
+    "nodemon": "^2.0.22"
+  }
+}
