@@ -8,6 +8,10 @@ const app = express();
 app.use(express.json());
 app.use(routes);
 
+// Testing
+app.get("/", (req, res) => {
+    res.send("Hello, I am live :)");
+})
 
 // MONGODB SETUP
 
